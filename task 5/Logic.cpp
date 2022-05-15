@@ -19,8 +19,8 @@ int calculateNoZeroElements(int* array, int size) {
 int calculateCountOfNumbersBiggerThenN(int* array, int size) {
 	int number;
 	int count = 0;
-	/*cout << "input number: ";
-	cin >> number;*/
+	cout << "input number: ";
+	cin >> number;
 
 	for (int i = 0;i < size; i++) {
 		if (array[i] > number) {
@@ -39,6 +39,7 @@ int calculateCountOfNumbers(int* array, int size) {
 	}
 	int avg = sum / size;
 	for (int i = 0;i < size; i++) {
+                if(array[i]>avg)
 		count++;
 	}
 }
