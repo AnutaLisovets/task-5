@@ -1,11 +1,6 @@
 #include "Header.h"
 
-void reversElements(int *array, int size);
-int calculateNoZeroElements(int *array, int size);
-int calculateCountOfNumbersBiggerThenN(int *array, int size);
-int calculateCountOfNumbers(int *array, int size);
-bool checkElements(int *array, int size);
-void bubbleSort(int *array, int size);
+
 
 void reversElements(int *array, int size) {
 	for (int i = size - 1; i != -1; i--) {
